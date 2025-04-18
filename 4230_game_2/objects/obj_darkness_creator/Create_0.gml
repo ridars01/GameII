@@ -16,4 +16,4 @@ for (var i = 0; i < 500; i++) {
     }
 }
 
-alarm_set(0, 25)
+global.lightChangeDirection = 1

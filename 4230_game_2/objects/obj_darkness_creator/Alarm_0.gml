@@ -1,3 +1,6 @@
-global.lightOffSet += random_range(-50, 50)
+var lightChangeAmount = 10
+global.lightOffSet += -1 * lightChangeAmount
 
-alarm_set(0, random_range(20, 40))
+if global.lightOffSet >= 100 then lightChangeDirection = -1
+
+if global.lightOffSet <= -100 then lightChangeDirection = 1

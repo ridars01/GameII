@@ -37,6 +37,7 @@
     {"id":{"name":"obj_black_square","path":"objects/obj_black_square/obj_black_square.yy",},},
     {"id":{"name":"obj_darkness_creator","path":"objects/obj_darkness_creator/obj_darkness_creator.yy",},},
     {"id":{"name":"obj_lightsource","path":"objects/obj_lightsource/obj_lightsource.yy",},},
+    {"id":{"name":"obj_thrown_lightsource","path":"objects/obj_thrown_lightsource/obj_thrown_lightsource.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"spr_black_square","path":"sprites/spr_black_square/spr_black_square.yy",},},
     {"id":{"name":"spr_lightsource","path":"sprites/spr_lightsource/spr_lightsource.yy",},},

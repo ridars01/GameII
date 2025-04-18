@@ -19,6 +19,7 @@
   "ResourceOrderSettings":[
     {"name":"obj_black_square","order":1,"path":"objects/obj_black_square/obj_black_square.yy",},
     {"name":"obj_darkness_creator","order":2,"path":"objects/obj_darkness_creator/obj_darkness_creator.yy",},
+    {"name":"obj_thrown_lightsource","order":4,"path":"objects/obj_thrown_lightsource/obj_thrown_lightsource.yy",},
     {"name":"spr_black_square","order":1,"path":"sprites/spr_black_square/spr_black_square.yy",},
     {"name":"spr_stone_bricks","order":2,"path":"sprites/spr_stone_bricks/spr_stone_bricks.yy",},
   ],
