@@ -41,5 +41,5 @@
     "path":"sprites/spr_lightsource/spr_lightsource.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

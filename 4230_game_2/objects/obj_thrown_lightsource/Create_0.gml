@@ -19,4 +19,9 @@ yDistance = yDirection * yDistance
 
 hspeed = xDistance/10
 vspeed = yDistance/10
+
+if distance > 300 {
+	hspeed -= 1
+	vspeed -= 1
+}
 alarm_set(0, 10)

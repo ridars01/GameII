@@ -1,4 +1,4 @@
-var lightChangeAmount = .5
+var lightChangeAmount = .1
 global.lightOffSet += (global.lightChangeDirection * lightChangeAmount)
 
 if global.lightOffSet >= 25 then global.lightChangeDirection = -1

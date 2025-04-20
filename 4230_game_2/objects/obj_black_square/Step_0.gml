@@ -1,5 +1,6 @@
 var light = instance_nearest(x, y, obj_lightsource)
 var oldDistance = point_distance(x, y, light.x, light.y)
+var distOffset = -50
 
 for (var i = 0; i < instance_number(obj_lightsource); ++i;)
 {
@@ -11,19 +12,21 @@ for (var i = 0; i < instance_number(obj_lightsource); ++i;)
 }
 
 if (light != noone) {
+	//if light.object_index = obj_thrown_lightsource && light.strength
     var dist = light.strength*point_distance(x, y, light.x, light.y)
     var max_light_dist = 500
 	
-    if (dist > max_light_dist) {
+    if (dist > max_light_dist){
 		
         image_alpha = 1 // fully dark
 		
     } else {
 		
-		dist -= 50 // extra modification to distance
+		dist += distOffset // extra modification to distance
 		dist += global.lightOffSet // apply flickering
 		
-		image_alpha = (1.012^(dist))/400 // set current transparency
+		if dist < 0 image_alpha = 0 else
+			image_alpha = (1.012^(dist))/200 // set current transparency
 		
 	}
 }

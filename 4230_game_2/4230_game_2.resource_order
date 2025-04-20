@@ -19,8 +19,17 @@
   "ResourceOrderSettings":[
     {"name":"obj_black_square","order":1,"path":"objects/obj_black_square/obj_black_square.yy",},
     {"name":"obj_darkness_creator","order":2,"path":"objects/obj_darkness_creator/obj_darkness_creator.yy",},
+    {"name":"obj_grid_cont","order":7,"path":"objects/obj_grid_cont/obj_grid_cont.yy",},
+    {"name":"obj_monster","order":5,"path":"objects/obj_monster/obj_monster.yy",},
+    {"name":"obj_player","order":6,"path":"objects/obj_player/obj_player.yy",},
     {"name":"obj_thrown_lightsource","order":4,"path":"objects/obj_thrown_lightsource/obj_thrown_lightsource.yy",},
+    {"name":"obj_torch_block","order":9,"path":"objects/obj_torch_block/obj_torch_block.yy",},
+    {"name":"obj_torch","order":8,"path":"objects/obj_torch/obj_torch.yy",},
     {"name":"spr_black_square","order":1,"path":"sprites/spr_black_square/spr_black_square.yy",},
+    {"name":"spr_monster","order":4,"path":"sprites/spr_monster/spr_monster.yy",},
+    {"name":"spr_player","order":3,"path":"sprites/spr_player/spr_player.yy",},
     {"name":"spr_stone_bricks","order":2,"path":"sprites/spr_stone_bricks/spr_stone_bricks.yy",},
+    {"name":"spr_torch_block","order":6,"path":"sprites/spr_torch_block/spr_torch_block.yy",},
+    {"name":"spr_torch_lit","order":7,"path":"sprites/spr_torch_lit/spr_torch_lit.yy",},
   ],
 }
