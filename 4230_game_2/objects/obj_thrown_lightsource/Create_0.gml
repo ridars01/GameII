@@ -25,3 +25,5 @@ if distance > 300 {
 	vspeed -= 1
 }
 alarm_set(0, 10)
+
+myTorch = instance_create_depth(x, y, depth, obj_torch_thrown)

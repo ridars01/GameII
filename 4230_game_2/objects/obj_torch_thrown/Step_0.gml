@@ -1,0 +1,1 @@
+if spinning then image_angle += 35 * spinDirection

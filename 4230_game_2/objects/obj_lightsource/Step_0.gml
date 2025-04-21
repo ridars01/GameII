@@ -5,4 +5,5 @@ y = clamp(y, 0, room_height - sprite_height);
 if instance_exists(obj_player) {
 	x = obj_player.xTorch
 	y = obj_player.yTorch
+	
 }
