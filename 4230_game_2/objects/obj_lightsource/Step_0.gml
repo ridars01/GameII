@@ -1,9 +1,7 @@
-x = clamp(x, 0, room_width - sprite_width);
-y = clamp(y, 0, room_height - sprite_height);
-
-// location change based on player animation:
 if instance_exists(obj_player) {
-	x = obj_player.xTorch
-	y = obj_player.yTorch
+	var angle_to_mouse = point_direction(obj_player.x, obj_player.y, mouse_x, mouse_y);
+	var radius = 15; // distance from player, adjust to taste
 	
+	x = obj_player.x + lengthdir_x(radius, angle_to_mouse)
+	y = obj_player.y + lengthdir_y(radius, angle_to_mouse) - 25
 }
