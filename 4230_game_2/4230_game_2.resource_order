@@ -18,7 +18,6 @@
   ],
   "ResourceOrderSettings":[
     {"name":"obj_black_square","order":1,"path":"objects/obj_black_square/obj_black_square.yy",},
-    {"name":"obj_block","order":18,"path":"objects/obj_block/obj_block.yy",},
     {"name":"obj_darkness_creator","order":2,"path":"objects/obj_darkness_creator/obj_darkness_creator.yy",},
     {"name":"obj_door","order":14,"path":"objects/obj_door/obj_door.yy",},
     {"name":"obj_grid_cont","order":7,"path":"objects/obj_grid_cont/obj_grid_cont.yy",},
@@ -33,6 +32,7 @@
     {"name":"obj_torch_block","order":9,"path":"objects/obj_torch_block/obj_torch_block.yy",},
     {"name":"obj_torch_thrown","order":10,"path":"objects/obj_torch_thrown/obj_torch_thrown.yy",},
     {"name":"obj_torch","order":8,"path":"objects/obj_torch/obj_torch.yy",},
+    {"name":"obj_wall","order":18,"path":"objects/obj_wall/obj_wall.yy",},
     {"name":"lose","order":2,"path":"rooms/lose/lose.yy",},
     {"name":"start","order":1,"path":"rooms/start/start.yy",},
     {"name":"tutorial","order":4,"path":"rooms/tutorial/tutorial.yy",},
@@ -46,6 +46,7 @@
     {"name":"spr_tileset","order":10,"path":"sprites/spr_tileset/spr_tileset.yy",},
     {"name":"spr_torch_block","order":5,"path":"sprites/spr_torch_block/spr_torch_block.yy",},
     {"name":"spr_torch_lit","order":6,"path":"sprites/spr_torch_lit/spr_torch_lit.yy",},
+    {"name":"spr_wall","order":11,"path":"sprites/spr_wall/spr_wall.yy",},
     {"name":"spr_wood","order":2,"path":"sprites/spr_wood/spr_wood.yy",},
   ],
 }

@@ -35,7 +35,6 @@
   "name":"4230_game_2",
   "resources":[
     {"id":{"name":"obj_black_square","path":"objects/obj_black_square/obj_black_square.yy",},},
-    {"id":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},},
     {"id":{"name":"obj_darkness_creator","path":"objects/obj_darkness_creator/obj_darkness_creator.yy",},},
     {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},},
     {"id":{"name":"obj_grid_cont","path":"objects/obj_grid_cont/obj_grid_cont.yy",},},
@@ -51,6 +50,7 @@
     {"id":{"name":"obj_torch_block","path":"objects/obj_torch_block/obj_torch_block.yy",},},
     {"id":{"name":"obj_torch_thrown","path":"objects/obj_torch_thrown/obj_torch_thrown.yy",},},
     {"id":{"name":"obj_torch","path":"objects/obj_torch/obj_torch.yy",},},
+    {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"lose","path":"rooms/lose/lose.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"start","path":"rooms/start/start.yy",},},
@@ -66,6 +66,7 @@
     {"id":{"name":"spr_tileset","path":"sprites/spr_tileset/spr_tileset.yy",},},
     {"id":{"name":"spr_torch_block","path":"sprites/spr_torch_block/spr_torch_block.yy",},},
     {"id":{"name":"spr_torch_lit","path":"sprites/spr_torch_lit/spr_torch_lit.yy",},},
+    {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
     {"id":{"name":"spr_wood","path":"sprites/spr_wood/spr_wood.yy",},},
     {"id":{"name":"tile_Tileset","path":"tilesets/tile_Tileset/tile_Tileset.yy",},},
   ],
