@@ -2,6 +2,9 @@ x = clamp(x, 0, room_width - sprite_width);
 y = clamp(y, 0, room_height - sprite_height);
 
 var moveSpeed = 2
+if (keyboard_check(vk_shift)) {
+    moveSpeed *= 2;
+}
 
 xTorch = x + xOffset
 yTorch = y + yOffset

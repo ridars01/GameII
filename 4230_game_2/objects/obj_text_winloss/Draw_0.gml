@@ -1,6 +1,6 @@
 if room == lose {
 	var myColor = c_red
-	var myText = "You were kilt!"
+	var myText = "You were killed!"
 }
 else if room == win {
 	var myColor = c_yellow
