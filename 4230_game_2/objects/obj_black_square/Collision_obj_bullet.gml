@@ -1,1 +1,1 @@
-image_alpha /= 1.2
+image_alpha /= 1.5

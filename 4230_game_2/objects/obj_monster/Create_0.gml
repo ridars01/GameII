@@ -5,3 +5,5 @@ xStalkPoint = 0
 yStalkPoint = 0
 invincible = false
 agression = .001
+
+music = false

@@ -1,0 +1,1 @@
+if room == mainMenu then audio_play_sound(snd_torchCrackling, 10, true)

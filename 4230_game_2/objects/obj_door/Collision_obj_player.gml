@@ -1,3 +1,5 @@
-if global.key {
-	room_goto(win)
-}
+if room == tutorial
+	if other.keys > 0 {
+		other.keys --
+		instance_destroy()
+	}

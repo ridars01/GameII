@@ -1,0 +1,1 @@
+if room == win or room == lose or room == bigwin then room_goto(tutorial)

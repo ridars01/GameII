@@ -1,3 +1,3 @@
-instance_destroy(other)
 phase = 4
+other.active = false
 room_goto(lose)

@@ -1,2 +1,2 @@
-global.key = true
+other.keys ++
 instance_destroy()

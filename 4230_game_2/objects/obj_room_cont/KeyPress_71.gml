@@ -1,0 +1,1 @@
+if room == mainMenu then room_goto_next()

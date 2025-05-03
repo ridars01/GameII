@@ -6,4 +6,4 @@ if instance_exists(obj_gun)
 	hspd = lengthdir_x(bSpeed, angle);
 	vspd = lengthdir_y(bSpeed, angle);
 }
-alarm_set(0, 25)
+alarm_set(0, 15)
