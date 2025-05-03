@@ -5,6 +5,7 @@ xTorch = x + xOffset
 yTorch = y + yOffset
 rTorch = -20
 keys = 0
+global.keys = keys
 global.torches = 2
 global.torchActive = true
 
@@ -19,3 +20,7 @@ stamina_regen = 0.25
 is_running = false
 
 active = true
+
+global.sKey = false
+
+global.gun = false

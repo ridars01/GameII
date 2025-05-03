@@ -1,12 +1,18 @@
 if x >= room_width || x <= 0 || y >= room_height || y <= 0 then phase = 3
+	x = clamp(x, -20, room_width + 20)
+	y = clamp(y, -20, room_height + 20)
+
+if !audio_is_playing(snd_monster_feet)
+	sound_id = audio_play_sound(snd_monster_feet, 10, true)
+	
+var dist = point_distance(x, y, obj_player.x, obj_player.y)
+var max_dist = 400
+var vol = 1 - clamp(dist / max_dist, 0, 1)
+audio_sound_gain(sound_id, vol, 0);
 
 var trueAgression = agression
 if !global.torchActive {
 	trueAgression = agression + .2
-	if !music  {
-	music = true
-	alarm_set(2, 100)
-	}
 }
 
 if instance_exists(obj_thrown_lightsource)
@@ -30,6 +36,8 @@ if object_exists(obj_player){
 					phase = 1 
 					alarm_set(0, 70)
 				}
+			if !audio_is_playing(snd_screech)
+				audio_play_sound(snd_screech, 10, false)
 				
 		}
 	}
@@ -41,6 +49,7 @@ if object_exists(obj_player){
 			speed = 20
 			direction = playerDir + 180
 		}
+		show_debug_message("Running!")
 	}
 	
 	else if phase == 2
@@ -50,7 +59,7 @@ if object_exists(obj_player){
 	
 	else if phase == 3
 	{
-		if (random(100) <= trueAgression * 100) and !counting {
+		if (random(100) <= trueAgression * 100 * agressionModifier) {
 			phase = 0
 			show_debug_message("Rolled below " + string(agression * 100))
 		}

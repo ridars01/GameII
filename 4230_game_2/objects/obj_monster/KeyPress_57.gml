@@ -1,0 +1,1 @@
+if agressionModifier > 0 then agressionModifier = 0 else agressionModifier = 1

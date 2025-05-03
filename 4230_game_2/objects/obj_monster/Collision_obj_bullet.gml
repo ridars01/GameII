@@ -1,11 +1,14 @@
 if !invincible {
-	alarm_set(0, 250)
+	alarm_set(0, 100)
 	invincible = true
-	alarm_set(1, 150)
+	alarm_set(1, 50)
 	hp --
 	phase = 1
 	agression += .01
 }
 instance_destroy(other)
 if hp <= 0
-	room_goto(bigwin)
+{
+	phase = 4
+	alarm_set(5, 15)
+}
